@@ -7,9 +7,10 @@
 }
 
 main {
-  border: 1px solid #fff;
   border-radius: 3px;
   aspect-ratio: 9/16;
-  width: 100vh;
-  max-width: 375px;
+  width: 375px;
+  display: block;
+  height: auto;
+  overflow-y: scroll;
 }
